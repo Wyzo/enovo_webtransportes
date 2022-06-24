@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="images/logos/logo_sm.png" type="image/x-icon">
     <title>Gigantexpress</title>
 </head>
+
 <body>
     <header class="text-center"
         style="background-image: url('images/backgrounds/back2.jpg'); height: 100vh; background-size: cover;">
@@ -27,14 +28,17 @@
                 </a>
 
                 <ul class="nav nav-pills fs-6 text-white">
-                    <li class="nav-item"><a href="index.html" class="nav-link text-white fw-bold">Página inicial</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link text-white fw-bold">Página inicial</a>
+                    </li>
                     <li class="nav-item"><a href="servicos.html" class="nav-link text-white">Serviços</a></li>
-                    <li class="nav-item"><a href="mapaentregas.html" class="nav-link text-white">Mapa de entregas</a></li>
+                    <li class="nav-item"><a href="mapaentregas.html" class="nav-link text-white">Mapa de entregas</a>
+                    </li>
                     <li class="nav-item"><a href="contactos.html" class="nav-link text-white">Contactos</a></li>
                     <li class="nav-item"><a href="seguirenvio.html" class="nav-link text-white">Seguir envio</a></li>
                     <li class="nav-item"><a href="cotacao.html" class="nav-link text-white">Cotação</a></li>
                     <li class="nav-item"><a href="cliente.html" class="nav-link text-white"
-                            style="background-color: #010066; padding: 10px; border-radius: 10px"><span><i class="fa-solid fa-user mx-2"></i></span>Área de cliente</a>
+                            style="background-color: #010066; padding: 10px; border-radius: 10px"><span><i
+                                    class="fa-solid fa-user mx-2"></i></span>Área de cliente</a>
                     </li>
                 </ul>
             </header>
@@ -50,7 +54,8 @@
                         style="padding: 10px 30px 10px 30px; background-color: #010066; border-radius: 10px; width: 13vw; font-size: 1vw;">Seguir
                         envio</a>
                     <a href="servicos.html" class="text-white text-decoration-none mx-3"
-                        style="padding: 10px 30px 10px 30px; background-color: #E56414; border-radius: 10px; width: 13vw; font-size: 1vw;">Os nossos
+                        style="padding: 10px 30px 10px 30px; background-color: #E56414; border-radius: 10px; width: 13vw; font-size: 1vw;">Os
+                        nossos
                         serviços</a>
                 </div>
             </div>
@@ -60,7 +65,8 @@
         </div>
     </header>
 
-    <div class="servicos text-center" style="background-color: #001666; border-bottom-left-radius: 190px;" id="servicos">
+    <div class="servicos text-center" style="background-color: #001666; border-bottom-left-radius: 190px;"
+        id="servicos">
         <h1 class="text-white fw-medium fs-2 p-5">Os nossos serviços</h1>
         <div class="container text-center">
             <div class="row">
@@ -85,8 +91,9 @@
                         transportes à Palete e carga geral (carga completa).</p>
                 </div>
             </div>
-            <button class="btn text-white my-5 mb-5" style="background-color: #E56414; padding: 5px 30px 5px 30px"><a href="servicos.html" class="text-white text-decoration-none">Ver
-                mais</a></button>
+            <button class="btn text-white my-5 mb-5" style="background-color: #E56414; padding: 5px 30px 5px 30px"><a
+                    href="servicos.html" class="text-white text-decoration-none">Ver
+                    mais</a></button>
         </div>
     </div>
 
@@ -106,7 +113,8 @@
                         placeholder="Ex: ATV21424242V"></input>
                     <button class="btn text-white my-2"
                         style="background-color: #E56414; padding: 5px 30px 5px 30px"><span><i
-                                class="fa-solid fa-magnifying-glass text-white mx-2"></i></span><a href="seguirenvio.html" class="text-white text-decoration-none">Seguir envio</a></button>
+                                class="fa-solid fa-magnifying-glass text-white mx-2"></i></span><a
+                            href="seguirenvio.html" class="text-white text-decoration-none">Seguir envio</a></button>
                     <img src="images/assets/follow.png" alt="" style="width: 33vw;">
                 </div>
             </div>
@@ -143,7 +151,8 @@
                         clientes.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/assets/entregador.png" class="d-block mx-lg-auto img-fluid my-5 mb-0" loading="lazy">
+                    <img src="images/assets/entregador.png" class="d-block mx-lg-auto img-fluid my-5 mb-0"
+                        loading="lazy">
                 </div>
             </div>
         </div>
@@ -190,8 +199,91 @@
             <div class="container">
                 <div class="btn-group" role="group">
                     <a href="#" class="text-white text-decoration-none fs-6">@2022. Gigantexpress Lda.</a>
-                    <a href="#" class="text-secondary text-decoration-none mx-5 fs-6">Avisos legais</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        class="text-secondary text-decoration-none mx-5 fs-6">Avisos legais</a>
                     <a href="#" class="text-secondary text-decoration-none mx-5 fs-6">Resolução de litigios</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-5">
+                    <h1 class="fw-bold fs-5" style="color: #001666">TÍTULO 1</h1>
+                    <p class="fs-6">1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                        tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                        lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                        vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                        ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                        enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                        posuere.</p>
+                    <p class="fs-6">2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                        tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                        lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                        vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                        ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                        enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                        posuere.</p>
+                    <p class="fs-6">3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                        tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                        lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                        vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                        ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                        enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                        posuere.</p>
+                    <p class="fs-6">4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                        tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                        lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                        vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                        ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                        enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                        posuere.</p>
+                    <p class="fs-6">5. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                        tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                        lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                        vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                        ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                        enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                        posuere.</p>
+                    <p class="fs-6">6. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                        tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                        lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                        vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                        ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                        enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                        posuere.</p>
+                        <h1 class="fw-bold fs-6" style="color: #001666">TÍTULO 2</h1>
+                        <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                            tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                            lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                            vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                            ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                            enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                            posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                            tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                            lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                            vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                            ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                            enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                            posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                            tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                            lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                            vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                            ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                            enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                            posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum pharetra purus, at
+                            tristique purus malesuada non. Suspendisse posuere quam id diam malesuada, ac dictum lorem
+                            lobortis. Aliquam maximus lacinia enim eu accumsan. Maecenas ut dui ut nisi accumsan aliquet eu
+                            vitae ex. Maecenas non orci in mauris vehicula rhoncus. Phasellus eget lorem venenatis, bibendum
+                            ligula at, tempor mauris. Ut ultrices felis a facilisis tempus. Cras vel nisi vehicula, semper
+                            enim vel, pulvinar ligula. Nulla eu fermentum nibh. Nulla ultrices tortor id mauris posuere
+                            posuere.</p>
                 </div>
             </div>
         </div>
